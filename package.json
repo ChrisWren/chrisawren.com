@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ChrisWren/chrisawren.com/issues"
   },
-  "homepage": "https://github.com/ChrisWren/chrisawren.com#readme"
+  "homepage": "https://github.com/ChrisWren/chrisawren.com#readme",
+  "devDependencies": {
+    "prettier": "2.4.1"
+  }
 }
