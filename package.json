@@ -1,0 +1,19 @@
+{
+  "name": "chrisawren.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisWren/chrisawren.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisWren/chrisawren.com/issues"
+  },
+  "homepage": "https://github.com/ChrisWren/chrisawren.com#readme"
+}

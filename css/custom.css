@@ -1,0 +1,107 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+.content {
+	margin-top: 45px;
+}
+.transformation {
+	transition: 1s;
+	display: inline-block;
+}
+.transformation:hover {
+	transform: skew(20deg, 10deg);
+}
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+h1 {
+	text-align: center;
+}
+.img-main-background {
+	margin: 20px auto;
+	background-size: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    transition: 1s;
+    background: url('../img/chris_wren.jpg');
+    background-size: cover;
+}
+
+.large-text {
+	font-size: 24px;
+}
+.img-main-background:hover {
+	transform: scale(1.1);
+}
+
+.social-link {
+	padding: 2px;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	transition: .5s;
+}
+.social-link:hover {
+	color: white;
+	background-color: black;
+}
+.airbnb-link {
+	color: #FF5A5F;;
+}
+.airbnb-link:hover {
+	color: white;
+	background-color: #FF5A5F;;
+}
+.twitter-link {
+	color: #4dabf7;
+}
+.twitter-link:hover {
+	color: white;
+	background-color: #4dabf7;
+}
+
+.linkedin-link {
+	color: #0077B5;
+}
+.linkedin-link:hover {
+	color: white;
+	background-color: #0077B5;
+}
+
+.spotify-link {
+	color: #1db954;
+}
+.spotify-link:hover {
+	color: white;
+	background-color: #1db954;
+}
+
+.lastfm-link {
+	color: #b90000;
+}
+.lastfm-link:hover {
+	color: white;
+	background-color: #b90000;
+}
+
+.foursquare-link {
+	color: #f94878;
+}
+.foursquare-link:hover {
+	color: white;
+	background-color: #f94878;
+}
+
+.experience-embeds {
+	width: 100%;
+	list-style: none;
+}
+
+.experience-embeds li {
+	display: inline-block;
+	max-width: 50%;
+}
