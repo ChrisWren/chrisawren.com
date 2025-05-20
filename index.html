@@ -5,9 +5,11 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title></title>
-  <meta name="description" content="Chris Wren's personal website">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <title>Chris WrenReference</title>
+   <title>Chris Wren</title>
+   <link rel="icon" href="img/ChrisWrenHeadshot.png">
+  <meta name="theme-color" content="#fafafa">
+  <meta name="description" content="Chris Wren's personal website">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -15,8 +17,10 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
 </head>
 
@@ -32,18 +36,62 @@
     <div class="content">
       <p class="large-text">
             Hello! I am a Software Engineer based in NYC.
-          <!-- <p class="large-text">You can find me writing on <a href="https://twitter.com/chrisawren" class="twitter-link social-link">Twitter <span class="fab fa-twitter"></span></a> and <a href="https://medium.com/@chrisawren" class="medium-link social-link">Medium <span class="fab fa-medium"></span></a>, taking photos on <a href="https://instagram.com/wrendmc" class="medium-link social-link">Instagram <span class="fab fa-instagram"></span></a>, being professional on <a href="https://www.linkedin.com/in/chrisawren" class="linkedin-link social-link">LinkedIn <span class="fab fa-linkedin"></span></a>, dropping tips on <a href="https://foursquare.com/chrisawren" class="foursquare-link social-link">Foursquare <span class="fab fa-foursquare"></span></a>, or lost in my headphones on <a href="https://open.spotify.com/user/chrisawren" class="spotify-link social-link">Spotify <span class="fab fa-spotify"></span></a> and <a href="http://last.fm/user/Wrenaissance" class="lastfm-link social-link">last.fm <span class="fab fa-lastfm"></span></a>.</p> -->
+      </p>
+      <div class="social-icons center">
+        <a href="https://linkedin.com/in/chrisawren" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/chrisawren" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://github.com/chriswren" target="_blank" rel="noopener noreferrer" title="GitHub">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a href="#" onclick="sendEmail(); return false;" title="Email me">
+          <i class="fas fa-envelope fa-2x"></i>
+        </a>
+      </div>
     </div>
 
-<!--     <ul id="experience-embeds" class="experience-embeds">
-      <li>
-        <div class="airbnb-embed-frame" data-id="152890" data-view="experience" style="width:410px;height:300px;margin:auto"><a href="https://www.airbnb.com/experiences/152890"><span>View On Airbnb</span></a><a href="https://www.airbnb.com/experiences/152890" rel="nofollow">Running + Dancing = Rancing!</a><script async="" src="https://www.airbnb.com/embeddable/airbnb_jssdk"></script></div>
-      </li>
-      <li>
-        <div class="airbnb-embed-frame" data-id="112375" data-view="experience" style="width:410px;height:300px;margin:auto"><a href="https://www.airbnb.com/experiences/112375"><span>View On Airbnb</span></a><a href="https://www.airbnb.com/experiences/112375" rel="nofollow">Mission Pinball Bar Crawl</a><script async="" src="https://www.airbnb.com/embeddable/airbnb_jssdk"></script></div>
-      </li>
-    </ul> -->
-  </div>            </div>
+    <section class="projects">
+      <h2>Recent Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/WrenDMCWorld.png" alt="Wren DMC World">
+          </div>
+          <div class="project-content">
+            <h3>Wren DMC World</h3>
+            <p>Visualized world map of my travels using globe.gl.</p>
+            <a href="https://wrendmc.world" class="project-button">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/TrackTumble.png" alt="TrackTumble">
+          </div>
+          <div class="project-content">
+            <h3>TrackTumble</h3>
+            <p>Music genre discovery app powered by Spotify.</p>
+            <a href="https://tracktumble.com" class="project-button">View Project</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/TechGuyTom.png" alt="TechGuyTom" style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+          <div class="project-content">
+            <h3>TechGuyTom</h3>
+            <p>Tom is your AI website helper offering content and design suggestions.</p>
+            <a href="https://techguytom.dev" class="project-button">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
